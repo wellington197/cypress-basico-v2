@@ -7,9 +7,10 @@
 
   "scripts": {
     "cy:open": "cypress open",  
-    "test": "cypress run",
+    "test": "cypress run", 
     "cy:open:mobile":"cypress open --config viewportWidth=410 viewportHeight=860", 
-    "test:mobile":"cypress run --config viewportWidth=410 viewportHeight=860"
+    "test:mobile":"cypress run --config viewportWidth=410 viewportHeight=860" 
+
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,6 @@
     "cypress": "^10.3.0"
   },
   "dependencies": {
-    "node-ipc": "^18.12.1"
+    "node-ipc": "^11.1.0"
   }
 }
