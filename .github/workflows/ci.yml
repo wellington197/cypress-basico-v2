@@ -5,11 +5,12 @@ on: [push] #Será disparado sempre que for efetuado um Push
 jobs: #Possui um trabalho
   cypress-run:
     runs-on: ubuntu-20.04 #roda em uma imagem Linux
-    using: 'node16'
+
     steps: # seguintes passos
       - name: Checkout
         uses: actions/checkout@v3.2.0 # baixar código do projeto
-        
+        with:
+          node-version: '16'
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run #Roda o Cypress Run
