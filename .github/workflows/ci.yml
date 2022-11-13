@@ -1,12 +1,21 @@
-name: End-to-end tests 🧪
-on: [push]
-jobs:
+name: End-to-end tests
+
+on: [push] #Será disparado sempre que for efetuado um Push
+
+jobs: #Possui um trabalho
   cypress-run:
-    runs-on: ubuntu-20.04
-    steps:
+    runs-on: ubuntu-20.04 #roda em uma imagem Linux
+
+    steps: # seguintes passos
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2 # baixar código do projeto
+        with:
+          node-version: '16'
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
-      - name: Cypress run
-        uses: cypress-io/github-action@v2
+      - name: Cypress run #Roda o Cypress Run
+        uses: cypress-io/github-action@v4.1.0
+        
+
+
+      
