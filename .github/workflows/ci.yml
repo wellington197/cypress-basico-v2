@@ -8,7 +8,7 @@ jobs: #Possui um trabalho
 
     steps: # seguintes passos
       - name: Checkout
-        uses: actions/checkout@v3.2.0 # baixar código do projeto
+        uses: actions/checkout@v3 # baixar código do projeto
         with:
           node-version: '16'
       # Install NPM dependencies, cache them correctly
