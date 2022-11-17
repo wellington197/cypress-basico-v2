@@ -2,32 +2,20 @@ name: End-to-end tests
 
 on: [push] #Será disparado sempre que for efetuado um Push
 
+jobs: #Possui um trabalho
+  cypress-run:
+    runs-on: ubuntu-20.04 #roda em uma imagem Linux
 
+    steps: # seguintes passos
+      - name: Checkout
+        uses: actions/checkout@v2 # baixar código do projeto
+        with:
+          node-version: '16'
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run #Roda o Cypress Run
+        uses: cypress-io/github-action@v4.1.0
+        
 
 
       
-
-# Node.js
-# Build a general Node.js project with npm.
-# Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
-
-trigger:
-- aula-0
-
-pool:
-  vmImage: ubuntu-latest
-
-steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '16'
-  displayName: 'Install Node.js'
-
-- script: |
-    npm install
-    npm run build
-  displayName: 'npm install and build'
-
-
-
