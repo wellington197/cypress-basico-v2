@@ -7,6 +7,18 @@ jobs: #Possui um trabalho
     runs-on: ubuntu-20.04 #roda em uma imagem Linux
 
     steps: # seguintes passos
+      - task: NodeTool@0
+          inputs:
+            versionSpec: '10.x'
+          displayName: 'Install Node.js'
+
+      - script: |
+          npm install
+          npm run build
+        displayName: 'npm install and build'
+
+
+
       - name: Checkout
         uses: actions/checkout@v2 # baixar código do projeto
         with:
@@ -19,3 +31,24 @@ jobs: #Possui um trabalho
 
 
       
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- aula-0
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install
+    npm run build
+  displayName: 'npm install and build'

@@ -224,6 +224,7 @@ describe('Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente
           .and('contain', 'Mensagem enviada com sucesso.')
           .invoke('hide')
           .should('not.be.visible')
+          
         cy.get('.error')
           .should('not.be.visible')
           .invoke('show')

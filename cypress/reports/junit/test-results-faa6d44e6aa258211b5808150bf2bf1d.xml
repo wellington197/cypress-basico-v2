@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.1400" tests="23" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-17T19:19:34" tests="0" file="cypress\e2e\CAT-TAT.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT" timestamp="2022-11-17T19:19:34" tests="23" time="23.1400" failures="0">
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Verifica o título da aplicação" time="0.4190" classname="Verifica o título da aplicação">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Preenche os campos obrigatórios da aplicação e envia o formulário" time="1.7660" classname="Preenche os campos obrigatórios da aplicação e envia o formulário">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Preenche os campo e-mail com formatação inválida" time="3.9350" classname="Preenche os campo e-mail com formatação inválida">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Campo de telefone continua vazio quando preenchido com valor não numérico" time="0.7250" classname="Campo de telefone continua vazio quando preenchido com valor não numérico">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Exibe menssagem de erro quando o telefone se torna obrigatório mas não é preenchido antes do formulário" time="7.0950" classname="Exibe menssagem de erro quando o telefone se torna obrigatório mas não é preenchido antes do formulário">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Preenche e limpa os campos nome, sobrenome, email e telefone" time="1.9710" classname="Preenche e limpa os campos nome, sobrenome, email e telefone">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Exibe a messagem de erro ao submeter o formulário sem preencher os campos obrigatórios" time="0.2450" classname="Exibe a messagem de erro ao submeter o formulário sem preencher os campos obrigatórios">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Envia o formuário com sucesso usando um comando customizado" time="1.6970" classname="Envia o formuário com sucesso usando um comando customizado">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Seleciona um produto (Youtube) por seu texto" time="0.4090" classname="Seleciona um produto (Youtube) por seu texto">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Seleciona um produto (Mentoria) por seu valor" time="0.3380" classname="Seleciona um produto (Mentoria) por seu valor">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Seleciona um produto (Blog) por seu indice" time="0.3440" classname="Seleciona um produto (Blog) por seu indice">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Marca o tipo de atendimento feedback" time="0.2570" classname="Marca o tipo de atendimento feedback">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Marca cada tipo de atendimento" time="0.4440" classname="Marca cada tipo de atendimento">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Marca ambos os checkboxes e depois desmarca o último" time="0.4120" classname="Marca ambos os checkboxes e depois desmarca o último">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Selecionando arquivo da pasta fixtures" time="0.1930" classname="Selecionando arquivo da pasta fixtures">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT seleciona um arquivo simulando um drag-and-drop" time="0.1880" classname="seleciona um arquivo simulando um drag-and-drop">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT seleciona um arquivo utilizando uma fixture para a qual foi dada um alias" time="0.1780" classname="seleciona um arquivo utilizando uma fixture para a qual foi dada um alias">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT verifica que a política de privacidade abre em outra aba sem a necessidade de um clique" time="0.1690" classname="verifica que a política de privacidade abre em outra aba sem a necessidade de um clique">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT testa a página da política de privavidade de forma independente" time="0.2450" classname="testa a página da política de privavidade de forma independente">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT exibe e esconde as mensagens de sucesso e erro usando o .invoke" time="0.2080" classname="exibe e esconde as mensagens de sucesso e erro usando o .invoke">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Preenche a área de texto usando o comando invoke" time="0.1460" classname="Preenche a área de texto usando o comando invoke">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Faz uma requisição HTTP" time="1.5550" classname="Faz uma requisição HTTP">
+    </testcase>
+    <testcase name="Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente TAT Encontrando o gatinho escondido" time="0.2010" classname="Encontrando o gatinho escondido">
+    </testcase>
+  </testsuite>
+</testsuites>
