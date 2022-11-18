@@ -8,7 +8,7 @@
 ///<reference types="Cypress"/>//
 
 const THERE_SECONDS_IN_MS= 30000
-const longtext= 'Executando teste de campo de texto de área para verificar quantos caracteres cabem no campo.'
+const longtext= 'Executando testes de campo de texto de área para verificar quantos caracteres cabem no campo.'
 
 
 //Descrição do Switch de teste
