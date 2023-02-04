@@ -69,7 +69,7 @@ describe('Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente
             cy.clock()
             cy.get('#firstName').type('Wellington')
             cy.get('#lastName').type('Costa')
-            cy.get('#email').type('wellington@cypress.com')
+            cy.get('#email').type('wellington@cypress.com')   
             cy.get('#phone-checkbox').check()
             // quando coloca texto muito longo, usa-se delay para diminuir tempo de teste
             cy.get('#open-text-area').type(longtext)    
