@@ -5,7 +5,7 @@
 // check out the link below and learn how to write your first test:
 // https://on.cypress.io/writing-first-test
 
-///<reference types="Cypress"/>//
+////<reference types="Cypress"/>
 
 const THERE_SECONDS_IN_MS= 30000
 const longtext= 'Executando teste de campo de texto de área para verificar quantos caracteres cabem no campo.'
@@ -20,13 +20,15 @@ describe('Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente
         cy.visit('./src/index.html')
     })
 
+
+//////////////////////////////////// Verificar título da págin////////////////////////////////////////////////
     it('Verifica o título da aplicação', () => {
         
         // Faz verificação com título do site
         cy.title().should('be.equal','Central de Atendimento ao Cliente TAT')
 
     })
-
+//////////////////////////////////// CAMPOS OBRIGATÓRIOS ////////////////////////////////////////////////
     it('Preenche os campos obrigatórios da aplicação e envia o formulário', () => {      
         cy.clock() //congela relógio do navegador
         cy.get('#firstName').type('Wellington')
@@ -118,7 +120,7 @@ describe('Switch de testes da tela cadastro da Central de Atendiemtno ao Cliente
         
     })
 
-//////////////////////////////////// IMPORTANTE////////////////////////////////////////////////
+//////////////////////////////////// SELECT////////////////////////////////////////////////
 
     //AULA 4 - BUSCANDO ITEM NA OPÇÃO SELECT : Como busca item, dentro de uma caixa de opções
     it('Seleciona um produto (Youtube) por seu texto',()=>{
